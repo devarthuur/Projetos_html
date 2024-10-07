@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(222, 219, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 98vh;
+
+    color: rgb(17, 11, 26);
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: 20033;
+}
+
+
+progress { 
+    border-radius: 8px;
+    width: 400px;
+    height: 16px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: rgba(23, 4, 34, 0.212);
+    border-radius:  px;
+
+}
+
+progress::-webkit-progress-value {
+    background-color: rgb(14, 0, 212);
+    border-radius:  8px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: rgb(126, 126, 126);
+    border-radius: 8px;
+}
